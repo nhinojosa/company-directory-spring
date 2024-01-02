@@ -5,7 +5,7 @@ import CardDetails from '@/views/CardDetails.vue'
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
   { path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
-  { path: '/employees/:username', name: 'CardDetails', component: () => import('@/views/CardDetails.vue') },
+  { path: '/employees/:id', name: 'CardDetails', component: () => import('@/views/CardDetails.vue') },
 ]
 
 const router = createRouter({
