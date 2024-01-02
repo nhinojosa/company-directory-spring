@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/company-directory-spring/',
   plugins: [vue()],
   resolve: {
     alias: {

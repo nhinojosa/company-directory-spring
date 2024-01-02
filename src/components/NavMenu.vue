@@ -1,9 +1,9 @@
 <template>
   <nav class="bg-slate-900 h-20 mb-8 items-center text-white">
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/other">Other</RouterLink>
-    <RouterLink to="/login">login</RouterLink>
-    <RouterLink to="/settings">settings</RouterLink>
+    <RouterLink :to="{name: 'Home'}">Home</RouterLink>
+    <RouterLink :to="{name: 'Other'}">Other</RouterLink>
+    <RouterLink :to="{name: 'LoginPage'}">login</RouterLink>
+    <RouterLink :to="{name: 'SettingsPage'}">settings</RouterLink>
   </nav>
 </template>
 
